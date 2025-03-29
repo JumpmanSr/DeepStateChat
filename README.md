@@ -23,3 +23,8 @@ Known Bugs:
 I can be reached on here or on discord: @Jumpman
 
 Special Thanks to my testers and friends.
+
+
+![S1IngameChatSS1](https://github.com/user-attachments/assets/74e410fa-cef1-4246-94fb-b5ffb4514666)
+![S1IngameChatSS2](https://github.com/user-attachments/assets/03408048-5379-4167-bf7b-59dfe7dc1e1b)
+
