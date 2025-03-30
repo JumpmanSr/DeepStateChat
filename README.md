@@ -21,6 +21,7 @@ Known Bugs:
 Fixed in 1.0.2 -- All text becomes lowercase -- Oops I forgot about that will fix in the future.
 
 Changelog:
+
 1.0.2:
   ﻿Built in release mode
   ﻿Fixed case being lost in sent or received messages.
