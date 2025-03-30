@@ -18,7 +18,14 @@ Other stuff:
 
 Known Bugs:
 1. The console window doesn't close like normal when using the say command -- will look into fixing in future.
-2. All text becomes lowercase -- Oops I forgot about that will fix in the future.
+# Fixed in 1.0.2 ##All text becomes lowercase -- Oops I forgot about that will fix in the future.
+
+Changelog:
+1.0.2:
+  ﻿Built in release mode
+  ﻿Fixed case being lost in sent or received messages.
+﻿  Some groundwork to hopefully replace Officer Bailey's name with the player's name in the notification at least.
+
 
 I can be reached on here or on discord: @Jumpman
 
