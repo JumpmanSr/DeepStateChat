@@ -22,9 +22,9 @@ Fixed in 1.0.2 -- All text becomes lowercase -- Oops I forgot about that will fi
 
 Changelog:
 1.0.2:
-Built in release mode
-Fixed case being lost in sent or received messages.
-Some groundwork to hopefully replace Officer Bailey's name with the player's name in the notification at least.
+1. Built in release mode
+2. Fixed case being lost in sent or received messages.
+3. Some groundwork to hopefully replace Officer Bailey's name with the player's name in the notification at least.
 
 
 I can be reached on here or on discord: @Jumpman
