@@ -18,7 +18,7 @@ Other stuff:
 
 Known Bugs:
 1. The console window doesn't close like normal when using the say command -- will look into fixing in future.
-# Fixed in 1.0.2 ##All text becomes lowercase -- Oops I forgot about that will fix in the future.
+Fixed in 1.0.2 -- All text becomes lowercase -- Oops I forgot about that will fix in the future.
 
 Changelog:
 1.0.2:
