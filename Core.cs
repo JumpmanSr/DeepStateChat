@@ -21,7 +21,7 @@ public class Core : MelonMod
     private HarmonyLib.Harmony JumpHarmony;
     public override void OnInitializeMelon()
     {
-        LoggerInstance.Msg("DeepStateChat v1.0.1 by Jumpman. Loading...");
+        LoggerInstance.Msg("DeepStateChat v1.0.2 by Jumpman. Loading...");
         JumpHarmony = new HarmonyLib.Harmony("com.SimpleIngameText");
         JumpHarmony.PatchAll();
         LoggerInstance.Msg("Mod Loaded - Use the 'say' command in the console to send messages!");
@@ -52,7 +52,7 @@ public class Core : MelonMod
                     //NotificationsManager.Instance.SendNotification(Player.Local.PlayerName, val.ToLower().Replace("echo", "").Replace("say", ""), new UnityEngine.Sprite());
                     string playername = Player.Local.PlayerName;
                     if (playername.Length > 10) playername = Player.Local.PlayerName.Substring(0, 10);
-                    NPCManager.GetNPC("officerbailey").SendTextMessage(playername + ":" + val.ToLower().Replace("say", ""));
+                    NPCManager.GetNPC("officerbailey").SendTextMessage(playername + ":" + val.Substring(3, val.Length - 3)); //removes say portion case irrelevant
                     return false;
                 }  
             }
