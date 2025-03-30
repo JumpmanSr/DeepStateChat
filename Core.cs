@@ -12,7 +12,7 @@ using System.Globalization;
 using UnityEngine;
 
 
-[assembly: MelonInfo(typeof(DeepStateChat.Core), "DeepStateChat", "1.0.1", "Jumpman", null)]
+[assembly: MelonInfo(typeof(DeepStateChat.Core), "DeepStateChat", "1.0.2", "Jumpman", null)]
 [assembly: MelonGame("TVGS", "Schedule I")]
 namespace DeepStateChat;
 
